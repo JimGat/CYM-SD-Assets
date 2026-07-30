@@ -67,10 +67,18 @@ curl -L https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads
   -o sdcard/lab/rfid/keys/mf_keys.dic
 ```
 
-The ChameleonUltraGUI download menu points to the RfidResearchGroup Proxmark3
-Mifare Classic dictionary plus related T55XX, Mifare Ultralight C, Mifare Plus,
-and Flipper dictionary sources. See `DICTIONARY_SOURCES.md` for the full list and
-verified URLs.
+The ChameleonUltraGUI download menu points to these dictionary download locations:
+
+| Dictionary | Download URL |
+|---|---|
+| Proxmark3 Mifare Classic | https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfc_default_keys.dic |
+| Proxmark3 T55XX | https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/t55xx_default_pwds.dic |
+| Proxmark3 Mifare Ultralight C | https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfulc_default_keys.dic |
+| Proxmark3 Mifare Plus | https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfp_default_keys.dic |
+| Flipper Zero Unleashed Mifare Classic | https://raw.githubusercontent.com/DarkFlippers/unleashed-firmware/refs/heads/dev/applications/main/nfc/resources/nfc/assets/mf_classic_dict.nfc |
+
+See `DICTIONARY_SOURCES.md` for the ChameleonUltraGUI source-file reference and
+verified URL notes.
 
 ## Notes
 
