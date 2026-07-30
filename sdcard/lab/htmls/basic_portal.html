@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Network Login</title>
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#101820;color:#f4f7fb;display:grid;min-height:100vh;place-items:center}
+    main{width:min(92vw,420px);background:#17212b;border:1px solid #2b3a48;border-radius:16px;padding:24px;box-shadow:0 16px 48px #0008}
+    h1{margin-top:0;font-size:1.45rem}.field{margin:14px 0}label{display:block;margin-bottom:6px;color:#b9c7d6}
+    input{width:100%;box-sizing:border-box;padding:12px;border-radius:10px;border:1px solid #415366;background:#0c141c;color:#fff}
+    button{width:100%;margin-top:12px;padding:12px;border:0;border-radius:10px;background:#ffd23f;color:#111;font-weight:700}
+    small{display:block;margin-top:14px;color:#8fa3b8;line-height:1.4}
+  </style>
+</head>
+<body><main>
+  <h1>Network Login</h1>
+  <form method="POST" action="/login">
+    <div class="field"><label for="username">Username / Email</label><input id="username" name="username" autocomplete="username"></div>
+    <div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password"></div>
+    <button type="submit">Connect</button>
+  </form>
+  <small>CYM lab captive portal template. Use only in an authorized test environment.</small>
+</main></body></html>
