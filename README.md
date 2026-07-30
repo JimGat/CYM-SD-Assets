@@ -54,6 +54,11 @@ The converter writes the CYM binary format:
 
 ## Refresh RFID dictionary
 
+CYM wiki reference:
+
+- NFC/RFID wiki: `mf_keys.dic` lives at `/sdcard/lab/rfid/keys/mf_keys.dic`, one 12-hex-character key per line, `#` comments ignored.
+- CYM Home wiki: the SD Asset Repository is the pre-built source for the OUI vendor table and extended MIFARE key dictionary.
+
 Source used for `mf_keys.dic`:
 
 ```text
