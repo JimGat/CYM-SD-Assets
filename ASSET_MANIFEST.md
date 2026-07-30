@@ -14,7 +14,8 @@ Generated: 2026-07-30T05:22:29Z
 
 ## RFID key dictionary
 
-- Source: https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/master/client/dictionaries/mfc_default_keys.dic
+- Source selected: https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfc_default_keys.dic
+- ChameleonUltraGUI source list: `DICTIONARY_SOURCES.md`
 - SD path: `sdcard/lab/rfid/keys/mf_keys.dic`
 - Non-comment key lines: 2509
 - mf_keys.dic SHA256: `ea0efebdff728963663eaac1030c95134103262163b06f7b7f6abc945aefa982`

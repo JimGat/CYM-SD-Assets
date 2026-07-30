@@ -57,18 +57,20 @@ The converter writes the CYM binary format:
 Source used for `mf_keys.dic`:
 
 ```text
-https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/master/client/dictionaries/mfc_default_keys.dic
+https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfc_default_keys.dic
 ```
 
 Refresh with:
 
 ```bash
-curl -L https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/master/client/dictionaries/mfc_default_keys.dic \
+curl -L https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfc_default_keys.dic \
   -o sdcard/lab/rfid/keys/mf_keys.dic
 ```
 
-The ChameleonUltra wiki links to the ChameleonUltra tooling ecosystem; the key
-dictionary itself is maintained in the RfidResearchGroup Proxmark3 repository.
+The ChameleonUltraGUI download menu points to the RfidResearchGroup Proxmark3
+Mifare Classic dictionary plus related T55XX, Mifare Ultralight C, Mifare Plus,
+and Flipper dictionary sources. See `DICTIONARY_SOURCES.md` for the full list and
+verified URLs.
 
 ## Notes
 
