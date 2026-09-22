@@ -1,16 +1,17 @@
 # Asset Manifest
 
-Generated: 2026-07-30T05:22:29Z
-
 ## OUI database
 
+- Generated: 2026-09-22T02:39:19Z
 - Source: https://standards-oui.ieee.org/oui/oui.csv
 - CSV path: `oui.csv`
 - Output: `sdcard/lab/ouilist.bin`
 - Magic: `OUI1`
-- Entries: 39856
-- oui.csv SHA256: `0c1a4c437089029dbb08ff16f4a2960238611ba0587e912e5f4ae2e754ceb442`
-- ouilist.bin SHA256: `e2cc1019b9e3fc5388c157501066979e317dde00e64c699f45fd14ca415e00b9`
+- Entries: 40202
+- oui.csv SHA256: `99ba26f2ebb59b0b5c6511a7a77d5f8abbc85140549fab80dc00d89f19e8fba2`
+- ouilist.bin SHA256: `4fb11677af953c1b1957e0c645cdcab54ecd94baa89cf09a20195e4443a3cda6`
+
+Previous refresh: 2026-07-30T05:22:29Z (39856 entries)
 
 ## RFID key dictionary
 

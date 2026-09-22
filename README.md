@@ -85,6 +85,19 @@ The ChameleonUltraGUI download menu points to these dictionary download location
 See `DICTIONARY_SOURCES.md` for the ChameleonUltraGUI source-file reference and
 verified URL notes.
 
+## Contributing
+
+This repo is deliberately kept separate from the main [CYM-NM28C5 firmware repo](https://github.com/JimGat/CYM) so SD-card assets can evolve on their own schedule, with a lower bar for contribution than firmware code. If you've got something that would help other CYM users, a PR here is very welcome:
+
+- **New or better dictionaries** — RFID/NFC key lists, wordlists, or other lookup tables useful to a CYM feature.
+- **Refreshed data** — the OUI vendor table and MIFARE key dictionary both go stale as new devices/keys are published; a PR that reruns the refresh steps above (with an updated `ASSET_MANIFEST.md` entry) is genuinely useful even without any code changes.
+- **New asset categories** — if a CYM feature could use a bundled reference file that doesn't belong in firmware (e.g. a new vendor/manufacturer table, a protocol signature list), open an issue first to discuss the shape before a large PR.
+- **Fixes** — corrections to install paths, broken source URLs, or SD directory layout.
+
+A few ground rules, matching the Notes below: no private keys/credentials/captures in any PR, and please note the source/license of any third-party data you add (see `DICTIONARY_SOURCES.md` for the existing pattern). Small, well-sourced PRs are easiest to review and merge quickly.
+
+For questions or to discuss a larger contribution first, the [LAB5 Discord](https://discord.gg/Vuq2SmCbk5) has a CYM thread, or open an issue here.
+
 ## Notes
 
 - This repo must not contain private API keys, captured credentials, captured handshakes, wardrive logs, or personal card dumps.
