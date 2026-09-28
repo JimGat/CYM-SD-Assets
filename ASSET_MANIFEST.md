@@ -15,8 +15,11 @@ Previous refresh: 2026-07-30T05:22:29Z (39856 entries)
 
 ## RFID key dictionary
 
+- Refreshed: 2026-09-28
 - Source selected: https://raw.githubusercontent.com/RfidResearchGroup/proxmark3/refs/heads/master/client/dictionaries/mfc_default_keys.dic
 - ChameleonUltraGUI source list: `DICTIONARY_SOURCES.md`
 - SD path: `sdcard/lab/rfid/keys/mf_keys.dic`
-- Non-comment key lines: 2509
-- mf_keys.dic SHA256: `ea0efebdff728963663eaac1030c95134103262163b06f7b7f6abc945aefa982`
+- Non-comment key lines: 2511
+- mf_keys.dic SHA256: `48e4c9a5748a00549119dace2c06895b9c97eed409da11efbedd2a046bdc545e`
+
+Previous refresh: 2026-07-30 (2509 keys)
