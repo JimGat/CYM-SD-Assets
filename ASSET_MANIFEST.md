@@ -23,3 +23,13 @@ Previous refresh: 2026-07-30T05:22:29Z (39856 entries)
 - mf_keys.dic SHA256: `48e4c9a5748a00549119dace2c06895b9c97eed409da11efbedd2a046bdc545e`
 
 Previous refresh: 2026-07-30 (2509 keys)
+
+
+## Game-data asset
+
+- Source: Freedoom Phase 1 v0.13.0, official release archive.
+- Asset path: `sdcard/doom/doom1.wad`; runtime: `/sdcard/doom/doom1.wad`.
+- WAD bytes: 28795076; lumps: 3163; header/directory/lump bounds verified.
+- SHA256: `7323bcc168c5a45ff10749b339960e98314740a734c30d4b9f3337001f9e703d`.
+- Full source/license/provenance: `sdcard/doom/README.md`, `PROVENANCE.json`, and adjacent Freedoom license/credits.
+- Data redistribution only; WS-C5 prototype firmware remains unqualified and unpublished.
