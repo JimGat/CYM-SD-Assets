@@ -1,0 +1,19 @@
+{
+  "asset": "Freedoom Phase 1",
+  "version": "0.13.0",
+  "source_member": "freedoom-0.13.0/freedoom1.wad",
+  "destination": "sdcard/doom/doom1.wad",
+  "runtime_path": "/sdcard/doom/doom1.wad",
+  "bytes": 28795076,
+  "sha256": "7323bcc168c5a45ff10749b339960e98314740a734c30d4b9f3337001f9e703d",
+  "archive_sha256": "3f9b264f3e3ce503b4fb7f6bdcb1f419d93c7b546f4df3e874dd878db9688f59",
+  "archive_url": "https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedoom-0.13.0.zip",
+  "content_modified": false,
+  "filename_changed": true,
+  "license": "Freedoom three-clause BSD-style; adjacent notice retained",
+  "wad_magic": "IWAD",
+  "lump_count": 3163,
+  "directory_bounds_valid": true,
+  "all_lump_bounds_valid": true,
+  "hardware_tested": false
+}
