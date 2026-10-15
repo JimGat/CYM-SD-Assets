@@ -33,3 +33,11 @@ Previous refresh: 2026-07-30 (2509 keys)
 - SHA256: `7323bcc168c5a45ff10749b339960e98314740a734c30d4b9f3337001f9e703d`.
 - Full source/license/provenance: `sdcard/doom/README.md`, `PROVENANCE.json`, and adjacent Freedoom license/credits.
 - Data redistribution only; WS-C5 prototype firmware remains unqualified and unpublished.
+
+## Manual SD layout (v3.0.2 Development)
+
+- Directory/seed inventory: `SD_LAYOUT.json`, matched to firmware `SD_ITEMS`.
+- Missing runtime folders retained with zero-byte `.gitkeep` files.
+- Missing seeds supplied as credential-free `.example` templates.
+- Optional installer: `tools/install_sd.py`; existing files are never overwritten.
+- Existing reference assets and dictionaries are unchanged.

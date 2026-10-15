@@ -19,6 +19,45 @@ Format a MicroSD card as FAT32 (32 GB or smaller), then copy the contents of
     └── rfid/keys/mf_keys.dic
 ```
 
+## Manual setup for devices without PSRAM
+
+CYM v3.0.2 Development skips automatic Validate & Provision when no usable PSRAM
+is registered. This applies to every board, including Classic CYD and HackerBox.
+Press OK to continue booting or return to the SD Card menu; no files are changed.
+Format + Provision is also unavailable on these devices. Format on a computer instead.
+
+1. Back up an existing card. For a new card, prepare FAT32 on your computer.
+2. Download this repository with **Code > Download ZIP** and extract it.
+3. Copy the **contents** of `sdcard/` to the card root. The card should contain
+   `lab/`, not another `sdcard/` directory. Keep the complete directory structure.
+4. When copying onto an existing card, **skip existing files**; do not replace
+   credentials, configuration, captures or saves with templates.
+5. On a new card, copy each `*.example` template to the same folder without the
+   `.example` suffix. Never replace an existing file. API-key templates contain
+   no credentials; edit only your private SD-card copy and never commit keys.
+6. Safely eject the card, insert it in CYM and boot. Missing optional resources
+   are not magically validated by dismissing the PSRAM warning.
+
+Alternatively, Python 3 can perform steps 3-5 without overwriting existing files.
+From the extracted repository folder, replace the example path with the actual
+mounted card root:
+
+```sh
+python3 tools/install_sd.py "/media/YOUR_USER/YOUR_SD_CARD"
+```
+
+Windows example (replace E: with the SD card drive):
+
+```powershell
+py tools/install_sd.py "E:/"
+```
+
+The command reports JSON `copied` and `preserved` counts. A second run preserves
+all existing files. It does not format a card, flash firmware or write keys.
+`SD_LAYOUT.json` inventories the required firmware directories and seed filenames.
+Empty directories have zero-byte `.gitkeep` files so GitHub ZIP downloads retain
+all folders. The installer creates those folders without copying the placeholders.
+
 ## Included assets
 
 - `sdcard/lab/ouilist.bin` — generated OUI vendor table for CYM BLE vendor lookup.

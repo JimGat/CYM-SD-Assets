@@ -1,0 +1,8 @@
+go_dark_on_boot=false
+vibrate_on_alert=true
+rssi_alert_threshold=-70
+pcap_enabled=false
+css_detection_enabled=true
+wardrive_enabled=true
+screen_timeout_sec=60
+brightness_pct=80
